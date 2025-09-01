@@ -28,8 +28,8 @@
     +afinação : int
     +Origem: string
 
-    +tocar() : string
-    +afinar() : string
+    +tocar() : void
+    +afinar() : void
     +informacoes() : string
     +calcular_preco_desconto : float
   }
@@ -40,9 +40,9 @@
     +escala : float
     +corpo : string
 
-    +substituir_corda(nmr_da_corda) : string
-    +dedilhar(acorde) : string
-    +usar_palheta() : string
+    +substituir_corda(nmr_da_corda) : void
+    +dedilhar(acorde) : void
+    +usar_palheta() : void
   }
 
   class Metais{
@@ -52,9 +52,9 @@
     +bocal : string
     +alcance_tonal : string
 
-    +limpar_bocal() : string
-    +ajustar_sopro(intensidade) : string
-    +trocar_valvula(numero) : string
+    +limpar_bocal() : void
+    +ajustar_sopro(intensidade) : void
+    +trocar_valvula(numero) : void
   }
 
   class Percussao {
@@ -64,7 +64,7 @@
     +material_da_pele : string
 
     +bater_com_baqueta() : void
-    +ajustar_tensao(pele, nivel) : string
+    +ajustar_tensao(pele, nivel) : void
     +ritmo(padrao) : string
   }
 
