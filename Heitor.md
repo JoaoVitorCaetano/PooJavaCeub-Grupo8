@@ -17,7 +17,13 @@ class Cliente {
 +realizarPedido(): void }
  
 
-class Funcionario 
+class Funcionario {
++cargo: string
++salario: float
+ +registrarVenda(): void
+ +registrarCliente(): void }
+
+ 
 
 Usuario <|-- Cliente
 Usuario <|-- Funcionario
