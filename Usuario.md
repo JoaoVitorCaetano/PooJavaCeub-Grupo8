@@ -24,10 +24,10 @@ class Funcionario {
 +salario: double
  +registrarVenda(): void
  +registrarCliente() : void
- +registrarCliente(): void }
+ +registrarCliente(): void 
 +consultarCliente(cpf: string) : Cliente
 +encaminharClienteParaSetor(cliente: Cliente, setor: string) : void
-+responderDuvidaCliente(cliente: Cliente, duvida: string) : string
++responderDuvidaCliente(cliente: Cliente, duvida: string) : string}
 
 
  
