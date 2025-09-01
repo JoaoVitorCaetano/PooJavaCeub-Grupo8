@@ -83,4 +83,11 @@
   }
 
 
+Produto <|-- Instrumento
+Produto <|-- Acessorio
+
+Instrumento <|-- Cordas
+Instrumento <|-- Metais
+Instrumento <|-- Percussao
+
 ```
