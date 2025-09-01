@@ -1,6 +1,23 @@
 ```mermaid
   classDiagram
 
+  class Produto{
+    +nome : string
+    +categoria : string
+    +marca : string
+    +modelo : string
+    +preco : float
+    +estoque : int
+    +descricao : string
+
+    +exibirDetalhes() : string
+    +atualizarPreco(): float
+    +aplicarDesconto() : float
+    +atualizarEstoque() : void
+    +verificarDisponibilidade() : bool
+  }
+   
+
   class Instrumento{
     +nome : string
     +marca : string
@@ -64,5 +81,6 @@
     +verificar_compatibilidade(instrumento) : bool
     +descricao() : string
   }
+
 
 ```
