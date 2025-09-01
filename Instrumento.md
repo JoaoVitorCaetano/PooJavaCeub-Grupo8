@@ -15,6 +15,18 @@
     +afinar() : string
     +informacoes() : string
     +calcular_preco_desconto : float
-}
+  }
+
+  class Cordas{
+    +numero_cordas : int
+    +tipo_corda : string
+    +escala : float
+    +corpo : string
+
+    +substituir_corda() : string
+    +dedilhar() : string
+    +usar_palheta() : string
+  }
+
 
 ```
