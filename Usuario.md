@@ -13,9 +13,12 @@ classDiagram
 class Cliente {
 +endereco: string
 +telefone: string
++status: string  
  +numeroPedido: int
-+realizarPedido(): void }
- 
++realizarPedido(): void 
+ +cancelarPedido(numeroPedido: int): boolean
++avaliarPedido(numeroPedido: int, nota: int, comentario: string): void}
+
 
 class Funcionario {
 +cargo: string
