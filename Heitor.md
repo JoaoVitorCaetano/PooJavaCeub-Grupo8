@@ -9,3 +9,15 @@ classDiagram
     +obterEmail(): string
     +obterInformacoesDoPedido(): int   
   }
+
+class Cliente {
++endereco: string
++telefone: string
+ +numeroPedido: int
++realizarPedido(): void }
+ 
+
+class Funcionario 
+
+Usuario <|-- Cliente
+Usuario <|-- Funcionario
