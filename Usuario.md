@@ -19,9 +19,16 @@ class Cliente {
 
 class Funcionario {
 +cargo: string
++dataContratacao: Date
++departamento: string
 +salario: double
  +registrarVenda(): void
+ +registrarCliente() : void
  +registrarCliente(): void }
++consultarCliente(cpf: string) : Cliente
++encaminharClienteParaSetor(cliente: Cliente, setor: string) : void
++responderDuvidaCliente(cliente: Cliente, duvida: string) : string
+
 
  
 
