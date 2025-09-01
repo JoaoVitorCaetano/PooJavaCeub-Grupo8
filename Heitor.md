@@ -1,12 +1,11 @@
 ```mermaid
 classDiagram
-  class Usuario
-  class Cliente
-  class Funcionario
-
-
-
-  Usuario <|-- Cliente
-  Usuario <|-- Funcionario
- 
-```
+  class Usuario {
+    +cpf: string
+    +nome: string
+    +email: string
+    +senha: string
+    +alterarSenha(novaSenha: string): void
+    +obterEmail(): string
+    +obterInformacoesDoPedido(): int   
+  }
