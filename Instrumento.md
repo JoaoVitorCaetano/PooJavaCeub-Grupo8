@@ -23,10 +23,21 @@
     +escala : float
     +corpo : string
 
-    +substituir_corda() : string
-    +dedilhar() : string
+    +substituir_corda(nmr_da_corda) : string
+    +dedilhar(acorde) : string
     +usar_palheta() : string
   }
 
+  class Metais{
+    +numero_valvulas : int
+    +tamanho_campana : float
+    +acabamento : string
+    +bocal : string
+    +alcance_tonal : string
+
+    +limpar_bocal() : string
+    +ajustar_sopro(intensidade) : string
+    +trocar_valvula(numero) : string
+  }
 
 ```
