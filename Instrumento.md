@@ -40,4 +40,15 @@
     +trocar_valvula(numero) : string
   }
 
+  class Percussao {
+    +tipo : string
+    +diametro : float
+    +altura_ajustavel : float
+    +material_da_pele : string
+
+    +bater_com_baqueta() : void
+    +ajustar_tensao(pele, nivel) : string
+    +ritmo(padrao) : string
+  }
+
 ```
