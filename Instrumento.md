@@ -51,4 +51,18 @@
     +ritmo(padrao) : string
   }
 
+  class Acessorio {
+    +tipo : string
+    +compatibilidade : string
+    +material : string
+    +preco : float
+    +cor : string
+    +dimensao : string
+    +peso : string
+
+    +usar_com(instrumento) : string
+    +verificar_compatibilidade(instrumento) : bool
+    +descricao() : string
+  }
+
 ```
