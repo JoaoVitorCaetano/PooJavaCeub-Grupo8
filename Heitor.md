@@ -19,7 +19,7 @@ class Cliente {
 
 class Funcionario {
 +cargo: string
-+salario: float
++salario: double
  +registrarVenda(): void
  +registrarCliente(): void }
 
