@@ -2,8 +2,10 @@
 classDiagram
   class Marca {
 
-+ Nomedamaca:string
-+ cnpj:int
-+ tipodeinstrumento: string
++ nomeDaMarca: string
++ cnpj: int
++ tipoDeInstrumento: string
++exibirInfo(): string
++validarCNPJ(cnpj: string): bool
 }
 ```
